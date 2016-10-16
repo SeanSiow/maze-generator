@@ -195,6 +195,7 @@ def main():
     print("The blue boxes represents the path from the start to the key")
     print("The purple boxes represents the path from the key to the exit")
     print("*Note: The purple boxes will overlap with the blue ones since it takes the same path near the key")
+    print("*Note: To see output, run program through an IDE (I used IDLE)")
     print("*********************************************************************")
     dim = eval(input("Insert Dimension for Maze\n(Must be less than 48 and greater than 2!): "))
     m = Maze(dim)
